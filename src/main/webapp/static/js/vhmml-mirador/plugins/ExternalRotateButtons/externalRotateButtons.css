@@ -1,0 +1,14 @@
+.mirador-container .mirador-viewer a.mirador-osd-external-rotate-right,
+.mirador-container .mirador-viewer a.mirador-osd-external-rotate-left {
+  background: none;
+  color: rgb( 146, 145, 145 );
+  box-sizing: border-box;
+  margin-right:5px;
+}
+
+.mirador-container .mirador-viewer a.mirador-osd-external-rotate-right:hover,
+.mirador-container .mirador-viewer a.mirador-osd-external-rotate-right.selected,
+.mirador-container .mirador-viewer a.mirador-osd-external-rotate-left:hover,
+.mirador-container .mirador-viewer a.mirador-osd-external-rotate-left.selected {
+  color: black;
+}

@@ -1,0 +1,53 @@
+#referenceEntryTable td {
+	padding: 5px;
+}
+
+.emailRefIcon + .popover {
+	max-width: none;
+}
+
+.emailRefIconLabel, .emailResponse {
+	margin-left: 10px;
+}
+
+.emailResponse {
+	display: none;
+}
+
+.emailResponse label {
+	margin-left: 5px;
+}
+
+
+form label.labelReference {
+	width: 150px; /*shift to the left so clear button doesn't drop off to the right so often*/
+}
+
+#referenceEntryForm {
+	max-width: 1000px;
+    margin: auto;
+    border: 4px solid #c4a02b;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.repeatableFieldGroup:first-child .removeField {
+	display: none;
+}
+
+#referenceEntryForm input,
+#referenceEntryForm select {
+	display: inline-block;
+    max-width: 500px;
+}
+
+#referenceEntryForm .tag {
+	background: #c4a02b;
+	border: 1px solid gray;
+	color: white;
+}
+
+#referenceEntryForm .tagsinput a {
+	color: white;
+}

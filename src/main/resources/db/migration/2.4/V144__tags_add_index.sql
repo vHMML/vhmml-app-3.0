@@ -1,0 +1,1 @@
+CREATE INDEX tags_idx1 ON tags(tag);

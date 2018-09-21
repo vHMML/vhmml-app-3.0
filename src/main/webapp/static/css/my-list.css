@@ -1,0 +1,64 @@
+/**
+ * CSS specific to the My List page and its functionalities.
+ */
+ 
+#myListControlGroup {
+	margin: 0.625em 0 1em;
+}
+
+#myListControlGroup label {
+	margin: 0 1em;
+}
+
+#myListControlGroup #myList-select-all {
+	margin: 0 0.5em;
+}
+
+#myListControlGroup .btn {
+	margin: 0 0.625em;
+}
+
+#myListControlGroup .btn span {
+	margin: 0 0.625em 0;
+}
+
+.myList-checkbox-container {
+	margin: 5em 1.25em 0 0;
+}
+
+.searchHit {
+	padding: 20px 35px 10px 35px;
+	box-shadow: 0px 2px 1px rgba(0,0,0,.1);
+	background-color: #fff;
+	margin-bottom: 25px;
+}
+
+.searchHitSection {
+	margin-bottom: 8px;
+}
+
+.searchHitText {
+	margin-bottom: 5px;
+}
+
+/* some indexed data has HTML from CKEditor, don't want to display paragraph styles in a search hit */
+.searchHitText p {
+	padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+.row-eq-height {
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex {
+	flex: 1;
+}
+
+#myListWrapper {
+	display: none;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SceneGraph version="1">
+  <AspectRatio>0.891540130151844</AspectRatio>
+  <BackgroundColor>000000</BackgroundColor>
+  <SceneNode>
+    <FileName>\\ad\homedir$\Staff\W\wstraub\My Documents\Expression\Deep Zoom Composer Projects\St Gallen-CodSang 1394 CROPPED\Source Images\square caps st gallen-codsang 1394-p12.jpg</FileName>
+    <x>0</x>
+    <y>0</y>
+    <Width>1</Width>
+    <Height>1</Height>
+    <ZOrder>1</ZOrder>
+  </SceneNode>
+</SceneGraph>

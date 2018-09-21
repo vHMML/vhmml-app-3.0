@@ -1,0 +1,1 @@
+This directory will store the dataset files temporarily while the job runs.  This directory is private and cannot be accessed publicly.  This README.txt may be deleted once the application is redeployed.

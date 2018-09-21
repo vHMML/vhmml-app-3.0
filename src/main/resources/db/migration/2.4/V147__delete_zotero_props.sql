@@ -1,0 +1,1 @@
+delete from application_configuration where prop_key in ('zotero.auth.key', 'zotero.user.id');

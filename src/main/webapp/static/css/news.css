@@ -1,0 +1,53 @@
+/* NEWS GENERAL */
+
+
+/* NEWS CONTENT */
+#news-content-container {
+	margin-top: 2em;
+}
+
+.news-item-image-container {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 15px 0 0 0;
+}
+
+.news-item-image-container img {
+	vertical-align: middle;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.news-item-title {
+	font-size: 2em;
+}
+
+.news-item-date-container {
+	color: #c2c2c2;
+	font-size: 0.85em;
+	text-align: right;
+}
+
+.news-item-quick-admin-container {
+	margin: 2em 0 0 0;
+}
+
+/* NEWS ADMIN */
+#news-admin-controls-container {
+	width: 80%;
+	margin: 2em auto;
+}
+
+.news-item-admin-panel-heading .btn,
+.news-item-admin-panel-heading .btn:hover {
+	margin: 0 10px 0 10px;
+}
+
+.news-content-edit-container {
+	padding: 40px;
+}
+
+.switch.news-switch input:checked + label {
+  background-color: #E37B40;
+}

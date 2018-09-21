@@ -1,0 +1,1 @@
+<button type="button" class="btn btn-md btn-success btn-backToResults"><span class="glyphicon glyphicon-share-alt flipHorizontal"></span>Results</button>

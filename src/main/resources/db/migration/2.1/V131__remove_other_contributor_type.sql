@@ -1,0 +1,1 @@
+update reading_room_content_contributors set contributor_type = null where contributor_type = 'OTHER';

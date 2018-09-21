@@ -1,0 +1,18 @@
+h3.window-manifest-title, a.thumbnails-option {
+	display: none;
+}
+
+#metaDataPanel td p {
+	max-width: 380px;
+}
+
+#metaDataPanel tr.transcription td, 
+#metaDataPanel tr.transcription td p {
+	width: 100%;
+	max-width: 100%;
+}
+
+.btn-add-folio-object,
+.btn-add-folio-object:hover {
+	padding: 0.5em 1.2em 0.5em 1.2em;
+}
