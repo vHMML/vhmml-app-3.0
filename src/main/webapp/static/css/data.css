@@ -1,0 +1,170 @@
+/* Override the main-content class */
+.main-content {
+	padding: 140px 0 0 0;
+}
+
+.data {
+	background-color: #23517f;
+}
+
+.dataSearchHeadingTitle {
+	margin: 5% 0;
+	float: left;
+}
+
+/* DATA PORTAL BREADCRUMBS */
+#dataSchemaButton,
+#dataSetButton,
+#dataAdminButton {
+	margin-right: 0em;	
+}
+
+#dataExportFullButton,
+#dataExportTableButton {
+	margin-right: 5px;
+	margin-left: 0px;
+}
+
+/* DATA PORTAL HOMEPAGE */
+.dataHomePageTitle {
+	color: #FFF;
+}
+
+.dataContent .page-banner {
+	min-height: 0;
+}
+
+.data-static-block {
+	background-color: #23517f;
+	color: #FFF;
+}
+
+.data-static-block:hover {
+	cursor: pointer;
+}
+
+.data-static-block-link {
+	color: #FFF;
+}
+
+.data-static-xl-block {
+	background-color: #444;
+	color: #FFF;
+}
+
+.data-static-xl-block-image {
+	padding: 8% 0 0 0;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+.data-static-xl-block-image img {
+	width: 100%;
+}
+	
+.data-static-block-link:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+	
+.data-static-x-block-overlay {
+	background-color: #000;
+	opacity: 0.3;
+}
+	
+.data-static-block:hover .block-overlay,
+.data-static-xl-block:hover .data-static-x-block-overlay {
+	background-color: #000;
+	opacity: 1;
+}
+
+/* DATA PORTAL FOOTER */
+.cc-by-icon {
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+.dataPortalUseStatment {
+	color: #FFF;
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+	padding: 3em 0;
+}
+
+.dataPortalUseStatment button {
+	display: block;
+	border: 2px solid #FFF;
+	border-radius: 0;
+	padding: 1em 0.75em;
+	margin: 0.75em auto;
+	background-color: #23517f;
+}
+
+.card {
+	margin-top:0;
+	margin-bottom:40px;
+    border-top: 2px solid #23517f;
+}
+
+/* DATA PORTAL ADMIN PAGE*/
+.admin-container {
+	margin: 0 0 20px 20px;
+}
+
+.img-thumbnail {
+	border:0;
+}
+
+/* Schema page CSS */
+li.level1 {
+	text-indent: 25px;
+}
+li.level2 {
+	text-indent: 50px;
+}
+li.level3 {
+	text-indent: 75px;
+}
+li.level4 {
+	text-indent: 100px;
+}
+li.level5 {
+	text-indent: 125px;
+}
+p.longDescriptionL1 {
+	margin-left: 30px;
+	font-size:small;
+}
+p.longDescriptionL2 {
+	margin-left: 55px;
+	font-size:small;
+}
+p.longDescriptionL3 {
+	margin-left: 80px;
+	font-size:small;
+}
+p.longDescriptionL4 {
+	margin-left: 105px;
+	font-size:small;
+}
+p.longDescriptionL5 {
+	margin-left: 130px;
+	font-size:small;
+}
+@media print {
+	footer,
+	.breadcrumbs,
+	.right-links
+	{display:none;}
+	
+	.main-header {
+		position: static !important;
+	}
+	/* Remove the link from the logo that will appear on the print version. */
+	a[href]:after {
+    	content: "";
+	}
+}

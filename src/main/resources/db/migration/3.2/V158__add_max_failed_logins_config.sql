@@ -1,0 +1,1 @@
+insert into application_configuration values('max.failed.logins', '3', 'text', 'text');

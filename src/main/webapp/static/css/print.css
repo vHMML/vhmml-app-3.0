@@ -1,0 +1,92 @@
+/* Setup the print styles for the Reading Room */
+@media print {
+	
+	/* Hide specific areas here... */
+	footer, 
+	.mirador-viewer, 
+	#thumbnail-viewer, 
+	.searchToggleBar, 
+	.breadcrumbs, 
+	.right-links,
+	.hamburger-menu,
+	.correctionsLink,
+	.metadata-print-icon,
+	.backToResults,
+	.editControls,
+	#searchPanel,
+	.menuToggleIcon,
+	.metadata-myList-save-icon,
+	.metadata-email-icon,
+	.metadata-manifest-url-icon,
+	#search-container
+	 {
+		display: none !important;
+	}
+	
+	#overview > a,
+	#object > a,
+	#contents > a,
+	#description > a {
+		display: none !important;
+	}
+	
+	/* Stretch the content out to fill up the width of the page. */
+	#metaDataPanel,
+	.bodyContent,
+	#metaDataPanel table {
+		width: 100% !important;
+	}
+	
+	/* Remove the link from the logo that will appear on the print version. */
+	a.logo:after,
+	a.removeAfterText:after {
+		content: "";
+	}
+	
+	#site-header {
+		position: static;
+	}
+	
+	.tooltip {
+		display: none;
+	}
+	
+	/* Hide the logo used for the web, and show the print-only logo */
+	.logo.nav-brand {
+		display: block;
+		float: none;
+	}
+		
+	.logo img {
+		display: none;
+	}
+	
+	.logo .printOnly {
+		display: block !important;
+	}
+	
+	.main-header {
+		position: static !important;
+	}
+	
+	.main-content {
+		padding-top: 0px;
+	}
+	
+	#metaDataPanel .tab-content {
+		padding: 5px 5px;
+	}
+	
+	#metaDataPanel .tab-pane {
+		padding: 0px;
+	}
+	
+	/* Unbold the VIAF links */
+	.viafLink {
+		font-weight: normal !important;
+	}
+	
+	.main-content {
+		padding: 0 !important;
+	}
+}

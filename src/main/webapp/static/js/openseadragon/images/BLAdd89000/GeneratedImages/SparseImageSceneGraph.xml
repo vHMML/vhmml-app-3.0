@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SceneGraph version="1">
+  <AspectRatio>0.666</AspectRatio>
+  <BackgroundColor>000000</BackgroundColor>
+  <SceneNode>
+    <FileName>\\ad\homedir$\Staff\W\wstraub\My Documents\Expression\Deep Zoom Composer Projects\BL Add 89000 (=Loan MS 74)\Source Images\uncial loan_ms_74_f01r = bl add 89000.jpg</FileName>
+    <x>0</x>
+    <y>0</y>
+    <Width>1</Width>
+    <Height>1</Height>
+    <ZOrder>1</ZOrder>
+  </SceneNode>
+</SceneGraph>

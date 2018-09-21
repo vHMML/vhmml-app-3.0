@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SceneGraph version="1">
+  <AspectRatio>0.677282377919321</AspectRatio>
+  <BackgroundColor>000000</BackgroundColor>
+  <SceneNode>
+    <FileName>C:\zoomables\cfmm130_3r\cfmm130_3r\Source Images\cfmm130_3r.jpg</FileName>
+    <x>0</x>
+    <y>0</y>
+    <Width>1</Width>
+    <Height>1</Height>
+    <ZOrder>1</ZOrder>
+  </SceneNode>
+</SceneGraph>

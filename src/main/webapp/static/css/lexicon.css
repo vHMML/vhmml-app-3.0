@@ -1,0 +1,67 @@
+#related-terms ul, #other-languages ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+.tab-content ul li {
+	margin-top: 10px;
+}	
+
+/* other langs are saved with CK Editor so they will have <p> around them */
+ul.otherLanguages li p {
+	display: inline;
+}
+
+.lexicon-tabs .tab-content {
+	margin-top: 10px;
+}
+.content {
+	text-align: center;
+}
+
+/*Reduce padding for iOS devices when held vertically*/
+.searchLetter {
+	margin: 0 5px 5px;
+	display: inline-block;
+}
+
+button.lexicon, button.lexicon:hover {
+	display: inline;
+}
+
+button.searchLetterButton {
+	color: #000;
+	border-radius: 5px;
+	background: #FFF;
+	border: none;
+	margin: 0;
+}
+
+button.searchLetterButton:hover,button.searchLetterButton:active {
+	color: #fff;
+	background-color: #444;
+	text-decoration: bold;
+}
+button.searchLetterButton:visited {
+	color: #fff;
+}
+
+button.searchLetterButton.default {
+	color: #fff;
+	background-color: #444;
+	border-radius: 5px;	
+}
+
+span.icon {
+	top: -2px;
+	position: relative
+}
+
+.table-row-caption p {
+	padding: 0;
+	display: inline;
+}
+
+form label.labelLexicon {
+	width: 150px; /*shift to the left so clear button doesn't drop off to the right so often*/
+}

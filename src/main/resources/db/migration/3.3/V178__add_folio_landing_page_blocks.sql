@@ -1,0 +1,76 @@
+INSERT INTO `vhmml`.`blocks` (`id`, `name`, `display_name`, `style_name`, `section`, `is_enabled`) VALUES ('22', 'folioHeaderBlock', 'Folio Header', 'folio-header-block', 'FOLIO', '1');
+INSERT INTO `vhmml`.`blocks` (`id`, `name`, `display_name`, `style_name`, `section`, `is_enabled`) VALUES ('23', 'folioBlockOne', 'Folio Block One', 'folio-block-1', 'FOLIO', '1');
+INSERT INTO `vhmml`.`blocks` (`id`, `name`, `display_name`, `style_name`, `section`, `is_enabled`) VALUES ('24', 'folioBlockTwo', 'Folio Block Two', 'folio-block-2', 'FOLIO', '1');
+INSERT INTO `vhmml`.`blocks` (`id`, `name`, `display_name`, `style_name`, `section`, `is_enabled`) VALUES ('25', 'folioBlockThree', 'Folio Block Three', 'folio-block-3', 'FOLIO', '1');
+INSERT INTO `vhmml`.`blocks` (`id`, `name`, `display_name`, `style_name`, `section`, `is_enabled`) VALUES ('26', 'folioBlockFour', 'Folio Block Four', 'folio-block-4', 'FOLIO', '1');
+INSERT INTO `vhmml`.`blocks` (`id`, `name`, `display_name`, `style_name`, `section`, `is_enabled`) VALUES ('27', 'folioBlockFive', 'Folio Block Five', 'folio-block-5', 'FOLIO', '1');
+
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `is_enabled`) VALUES ('22', 'folio-header-block-image-1', 'IMAGE', '0');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('22', 'folio-header-block-heading', 'HEADING', 'Folio', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('22', 'folio-header-block-heading-color', 'HEADINGCOLOR', '#FFFFFF', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('22', 'folio-header-block-content', 'CONTENT', 'vHMML Folio offers images of manuscript pages from various traditions across the globe and across the ages.', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('22', 'folio-header-block-content-color', 'CONTENTCOLOR', '#FFFFFF', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('22', 'folio-header-block-overlay-color', 'OVERLAYCOLOR', '#000000', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('22', 'folio-header-block-overlay-opacity', 'OVERLAYOPACITY', '0', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('22', 'folio-header-block-background-color', 'BACKGROUNDCOLOR', '#000000', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('22', 'folio-header-block-url', 'URL', '/folio', '1');
+
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `is_enabled`) VALUES ('23', 'folio-block-1-image', 'IMAGE', '0');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('23', 'folio-block-1-heading', 'HEADING', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('23', 'folio-block-1-heading-color', 'HEADINGCOLOR', '#FFFFFF', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('23', 'folio-block-1-content', 'CONTENT', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('23', 'folio-block-1-content-color', 'CONTENTCOLOR', '#FFFFFF', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('23', 'folio-block-1-overlay-color', 'OVERLAYCOLOR', '#000000', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('23', 'folio-block-1-overlay-opacity', 'OVERLAYOPACITY', '0', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('23', 'folio-block-1-background-color', 'BACKGROUNDCOLOR', '#000000', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('23', 'folio-block-1-url', 'URL', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('23', 'folio-block-1-field-link-search', 'FIELDLINKSEARCH', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('23', 'folio-block-1-hover-color', 'HOVERCOLOR', '#000000', '1');
+
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `is_enabled`) VALUES ('24', 'folio-block-2-image', 'IMAGE', '0');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('24', 'folio-block-2-heading', 'HEADING', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('24', 'folio-block-2-heading-color', 'HEADINGCOLOR', '#FFFFFF', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('24', 'folio-block-2-content', 'CONTENT', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('24', 'folio-block-2-content-color', 'CONTENTCOLOR', '#FFFFFF', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('24', 'folio-block-2-overlay-color', 'OVERLAYCOLOR', '#000000', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('24', 'folio-block-2-overlay-opacity', 'OVERLAYOPACITY', '0', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('24', 'folio-block-2-background-color', 'BACKGROUNDCOLOR', '#000000', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('24', 'folio-block-2-url', 'URL', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('24', 'folio-block-2-field-link-search', 'FIELDLINKSEARCH', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('24', 'folio-block-2-hover-color', 'HOVERCOLOR', '#000000', '1');
+
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `is_enabled`) VALUES ('25', 'folio-block-3-image', 'IMAGE', '0');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('25', 'folio-block-3-heading', 'HEADING', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('25', 'folio-block-3-heading-color', 'HEADINGCOLOR', '#FFFFFF', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('25', 'folio-block-3-content', 'CONTENT', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('25', 'folio-block-3-content-color', 'CONTENTCOLOR', '#FFFFFF', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('25', 'folio-block-3-overlay-color', 'OVERLAYCOLOR', '#000000', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('25', 'folio-block-3-overlay-opacity', 'OVERLAYOPACITY', '0', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('25', 'folio-block-3-background-color', 'BACKGROUNDCOLOR', '#000000', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('25', 'folio-block-3-url', 'URL', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('25', 'folio-block-3-field-link-search', 'FIELDLINKSEARCH', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('25', 'folio-block-3-hover-color', 'HOVERCOLOR', '#000000', '1');
+
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `is_enabled`) VALUES ('26', 'folio-block-4-image', 'IMAGE', '0');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('26', 'folio-block-4-heading', 'HEADING', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('26', 'folio-block-4-heading-color', 'HEADINGCOLOR', '#FFFFFF', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('26', 'folio-block-4-content', 'CONTENT', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('26', 'folio-block-4-content-color', 'CONTENTCOLOR', '#FFFFFF', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('26', 'folio-block-4-overlay-color', 'OVERLAYCOLOR', '#000000', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('26', 'folio-block-4-overlay-opacity', 'OVERLAYOPACITY', '0', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('26', 'folio-block-4-background-color', 'BACKGROUNDCOLOR', '#000000', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('26', 'folio-block-4-url', 'URL', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('26', 'folio-block-4-field-link-search', 'FIELDLINKSEARCH', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('26', 'folio-block-4-hover-color', 'HOVERCOLOR', '#000000', '1');
+
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `is_enabled`) VALUES ('27', 'folio-block-5-image', 'IMAGE', '0');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('27', 'folio-block-5-heading', 'HEADING', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('27', 'folio-block-5-heading-color', 'HEADINGCOLOR', '#FFFFFF', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('27', 'folio-block-5-content', 'CONTENT', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('27', 'folio-block-5-content-color', 'CONTENTCOLOR', '#FFFFFF', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('27', 'folio-block-5-overlay-color', 'OVERLAYCOLOR', '#000000', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('27', 'folio-block-5-overlay-opacity', 'OVERLAYOPACITY', '0', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('27', 'folio-block-5-background-color', 'BACKGROUNDCOLOR', '#000000', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('27', 'folio-block-5-url', 'URL', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('27', 'folio-block-5-field-link-search', 'FIELDLINKSEARCH', '', '1');
+INSERT INTO `vhmml`.`block_components` (`block_id`, `style_name`, `type`, `value`, `is_enabled`) VALUES ('27', 'folio-block-5-hover-color', 'HOVERCOLOR', '#000000', '1');

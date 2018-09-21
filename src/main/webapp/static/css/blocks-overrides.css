@@ -1,0 +1,16 @@
+/**
+ * Override some of the site styles with !important that is needed for the new block system.
+ */
+ 
+.container {
+	padding: 0 !important;
+}
+
+.main-content {
+	padding: 141px 0 0 0 !important;
+	text-align: left;
+}
+
+#search-options-panel .bootstrap-select > .dropdown-toggle.bs-placeholder {
+	color: #444;
+}

@@ -1,0 +1,1 @@
+This directory will hold the sitemaps for vHMML.  This README.txt may be deleted once the application is redeployed.

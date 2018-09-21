@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SceneGraph version="1">
+  <AspectRatio>0.706166035136066</AspectRatio>
+  <BackgroundColor>000000</BackgroundColor>
+  <SceneNode>
+    <FileName>\\ad\homedir$\Staff\W\wstraub\My Documents\Expression\Deep Zoom Composer Projects\UNCIAL BAV-Pal.lat.210.f.004rANNO\Source Images\uncial bav-pal.lat.210.f.004ranno.jpg</FileName>
+    <x>0</x>
+    <y>0</y>
+    <Width>1</Width>
+    <Height>1</Height>
+    <ZOrder>1</ZOrder>
+  </SceneNode>
+</SceneGraph>

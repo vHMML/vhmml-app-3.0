@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<SceneGraph version="1">
+  <AspectRatio>0.731034482758621</AspectRatio>
+  <BackgroundColor>000000</BackgroundColor>
+  <SceneNode>
+    <FileName>\\ad\homedir$\Staff\W\wstraub\My Documents\Expression\Deep Zoom Composer Projects\Hmtr026_012r_011v_ANNOT1bcropped\Source Images\hmtr026_012r_011v_annot1bcropped.jpg</FileName>
+    <x>0</x>
+    <y>0</y>
+    <Width>1</Width>
+    <Height>1</Height>
+    <ZOrder>1</ZOrder>
+  </SceneNode>
+</SceneGraph>

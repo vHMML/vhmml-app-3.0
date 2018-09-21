@@ -1,0 +1,101 @@
+/**
+ * STYLESHEET FOR BLOCKS
+ *
+ * This stylesheet is for all blocks not related to the section header/banner.
+ */
+.content-container .block-container,
+.blocks-container .block-container {
+	margin: 0 0 20px 0;
+}
+ 
+.block-container {
+	height: 250px;
+	text-align: left;
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.block-container.xl-block {
+	height: 520px;
+}
+
+.block-container .block-overlay {
+	transition: 0.7s;
+	height: 250px;
+	overflow: hidden;
+	z-index: 1;
+	position: relative;
+	top: -250px;
+}
+
+.block-container .block-overlay.xl-block {
+	height: 520px;
+	top: -520px;
+}
+
+.block-container h3 {
+	margin-top: 0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.block-container img {
+	max-width: none;
+}
+
+.block-container .block-text-container {
+	z-index: 2;
+	display: block;
+	position: relative;
+	top: 0;
+	padding: 20px;
+	height: 250px;
+}
+
+.block-container .block-text-container.xl-block {
+	z-index: 2;
+	display: block;
+	position: relative;
+	top: 0;
+	padding: 20px;
+	height: 520px;
+}
+
+/* SEARCH BAR STYLES */
+#search-container {
+	width: 100%;
+	background-color: #000;
+	text-align: center;
+}
+
+#search-container .keyword-search-bar {
+	width: 80%;
+	margin: 0 auto;
+	padding: 14px;
+}
+
+#search-container .keyword {
+	padding: 10px;
+	float: none;
+}
+
+#search-container .searchButton,
+#search-container .dataSearchButton {
+	background-color: #CBCBCB;
+	border-color: #CBCBCB;
+	color: #000;
+	margin: 0 !important;
+	top: 0;
+}
+
+#search-container .clearSearchOptionsButton {
+	background-color: #FFF;
+	color: #000;
+	margin: 0 !important;
+	top: 0;
+}
+
+#search-container form {
+	background-color: #000;
+}
