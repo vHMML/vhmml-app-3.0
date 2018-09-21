@@ -42,4 +42,4 @@ Version information for the servers running Java(TM) SE Runtime Environment (bui
 
 ============================================================
 
-Funding for vHMML was provided by the Institute of Museum and Library Services (IMLS), the Henry Luce Foundation, the Andrew W Mellon Foundation, Arcadia, and generous individuals.
+Funding for vHMML was provided by the The National Endowment for the Humanities (NEH), the Institute of Museum and Library Services (IMLS), the Henry Luce Foundation, the Andrew W Mellon Foundation, Arcadia, and generous individuals.
